@@ -1,0 +1,4 @@
+Name: ALAQUER - AI Assistant
+Description: Launch ALAQUER (Advanced Language AI Query User Experience in R) - A ChatGPT-style interface for Ollama models with Super RAG, prompt engineering, and online search.
+Binding: alaquer_addin
+Interactive: true

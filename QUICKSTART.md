@@ -43,6 +43,28 @@ source("install_and_test.R")
 
 ---
 
+## 🚀 Launch Options
+
+ALAQUER works as both a package AND an RStudio addin!
+
+### **In RStudio (Easiest!):**
+1. Click **Addins** → **ALAQUER - AI Assistant**
+2. Done! 🎉
+
+### **In Any R Environment:**
+```r
+library(ALAQUER)
+launch_alaquer()
+```
+
+### **From Source Directory:**
+```r
+setwd("path/to/ALAQUER")
+source("quick_launch.R")
+```
+
+---
+
 ## 📝 Absolute Minimum Example
 
 If you just want to try it RIGHT NOW:

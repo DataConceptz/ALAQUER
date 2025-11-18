@@ -8,7 +8,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Ollama](https://img.shields.io/badge/Powered%20by-Ollama-black.svg)](https://ollama.ai/)
 
-*A cutting-edge R addin that provides a sophisticated ChatGPT-style Shiny interface for interacting with Ollama language models*
+*A cutting-edge R package and RStudio addin that provides a sophisticated ChatGPT-style Shiny interface for interacting with Ollama language models*
 
 </div>
 
@@ -253,19 +253,41 @@ This comprehensive script will:
 
 ### Basic Launch
 
+ALAQUER can be launched in multiple ways depending on your environment:
+
+#### **Option 1: RStudio Addins Menu** (Recommended for RStudio users)
+
+After installation, simply:
+1. Click **"Addins"** in the RStudio toolbar
+2. Select **"ALAQUER - AI Assistant"**
+3. The application launches automatically!
+
+#### **Option 2: R Function Call** (Works everywhere)
+
+```r
+# If installed as package
+library(ALAQUER)
+launch_alaquer()
+
+# Or call directly
+ALAQUER::launch_alaquer()
+```
+
+#### **Option 3: Quick Launch Script** (Development mode)
+
 ```r
 # Navigate to ALAQUER directory
 setwd("path/to/ALAQUER")
 
-# Option 1: Quick Launch
+# Quick launch
 source("quick_launch.R")
+```
 
-# Option 2: Manual Launch
+#### **Option 4: Manual Launch**
+
+```r
+setwd("path/to/ALAQUER")
 source("R/launch_app.R")
-launch_alaquer()
-
-# Option 3: If installed as package
-library(ALAQUER)
 launch_alaquer()
 ```
 

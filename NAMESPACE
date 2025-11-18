@@ -11,6 +11,8 @@ export(enhance_prompt)
 export(search_online)
 export(process_response)
 export(get_example_prompts)
+export(alaquer_addin)
+export(alaquer_addin_info)
 
 importFrom(shiny, runApp)
 importFrom(httr, GET)

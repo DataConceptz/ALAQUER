@@ -42,6 +42,7 @@ Suggests:
     testthat (>= 3.0.0),
     knitr (>= 1.42),
     devtools (>= 2.4.0),
-    roxygen2 (>= 7.2.0)
+    roxygen2 (>= 7.2.0),
+    rstudioapi (>= 0.13)
 RoxygenNote: 7.2.3
 VignetteBuilder: knitr
