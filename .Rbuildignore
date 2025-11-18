@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.git$
+^\.gitignore$
+^install_and_test\.R$
+^quick_launch\.R$
+^complete_fix\.R$
+^README\.md$

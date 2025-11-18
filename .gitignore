@@ -1,0 +1,36 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.RDataTmp
+
+# User-specific files
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# OAuth2 token
+.httr-oauth
+
+# Shiny token
+rsconnect/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Package build files
+*.tar.gz
+*.zip
+
+# Mac files
+.DS_Store
+
+# Windows files
+Thumbs.db

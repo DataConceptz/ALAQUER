@@ -1,0 +1,47 @@
+Package: ALAQUER
+Type: Package
+Title: Advanced Language AI Query User Experience in R
+Version: 1.0.0
+Authors@R: person("ALAQUER", "Developer", email = "alaquer@example.com", role = c("aut", "cre"))
+Description: A cutting-edge R addin that provides a sophisticated ChatGPT-style
+    Shiny interface for interacting with Ollama language models. Enhanced with
+    Super RAG, Online Search Integration, AI-Powered Prompt Engineering, and
+    Advanced Response Processing for the ultimate AI experience in R.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 4.0.0)
+Imports:
+    shiny (>= 1.7.0),
+    shinydashboard (>= 0.7.0),
+    shinyWidgets (>= 0.7.0),
+    shinyjs (>= 2.1.0),
+    shinycssloaders (>= 1.0.0),
+    DT (>= 0.20),
+    httr (>= 1.4.0),
+    jsonlite (>= 1.8.0),
+    clipr (>= 0.8.0),
+    readr (>= 2.1.0),
+    readxl (>= 1.4.0),
+    pdftools (>= 3.3.0),
+    tm (>= 0.7-10),
+    stringr (>= 1.5.0),
+    dplyr (>= 1.1.0),
+    tidyr (>= 1.3.0),
+    markdown (>= 1.5),
+    rmarkdown (>= 2.20),
+    xml2 (>= 1.3.0),
+    rvest (>= 1.0.0),
+    curl (>= 5.0.0),
+    digest (>= 0.6.0),
+    Matrix (>= 1.5-0),
+    lsa (>= 0.73.0),
+    text2vec (>= 0.6.0)
+Suggests:
+    testthat (>= 3.0.0),
+    knitr (>= 1.42),
+    devtools (>= 2.4.0),
+    roxygen2 (>= 7.2.0)
+RoxygenNote: 7.2.3
+VignetteBuilder: knitr
