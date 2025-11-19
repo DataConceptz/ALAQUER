@@ -1,12 +1,15 @@
 Package: ALAQUER
 Type: Package
 Title: Advanced Language AI Query User Experience in R
-Version: 1.0.0
+Version: 2.0.0
 Authors@R: person("ALAQUER", "Developer", email = "alaquer@example.com", role = c("aut", "cre"))
-Description: A cutting-edge R addin that provides a sophisticated ChatGPT-style
-    Shiny interface for interacting with Ollama language models. Enhanced with
-    Super RAG, Online Search Integration, AI-Powered Prompt Engineering, and
-    Advanced Response Processing for the ultimate AI experience in R.
+Description: A cutting-edge R package and RStudio addin that provides a
+    sophisticated ChatGPT-style Shiny interface for interacting with Ollama
+    language models. Version 2.0 features: Streaming responses, conversation
+    management, multi-model comparison, theme system with dark mode, session
+    persistence, vector embeddings, advanced export formats, model management UI,
+    response quality tracking, Super RAG, online search integration, AI-powered
+    prompt engineering, and advanced response processing.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true

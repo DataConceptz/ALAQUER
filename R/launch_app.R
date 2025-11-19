@@ -234,7 +234,7 @@ install_alaquer_dependencies <- function(upgrade = FALSE) {
 #' @return Character string with version number
 #' @export
 get_alaquer_version <- function() {
-  return("1.0.0")
+  return("2.0.0")
 }
 
 #' Print ALAQUER Welcome Message
