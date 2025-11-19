@@ -1,15 +1,19 @@
 Package: ALAQUER
 Type: Package
 Title: Advanced Language AI Query User Experience in R
-Version: 2.0.0
+Version: 3.0.0
 Authors@R: person("ALAQUER", "Developer", email = "alaquer@example.com", role = c("aut", "cre"))
 Description: A cutting-edge R package and RStudio addin that provides a
     sophisticated ChatGPT-style Shiny interface for interacting with Ollama
-    language models. Version 2.0 features: Streaming responses, conversation
-    management, multi-model comparison, theme system with dark mode, session
-    persistence, vector embeddings, advanced export formats, model management UI,
-    response quality tracking, Super RAG, online search integration, AI-powered
-    prompt engineering, and advanced response processing.
+    language models. Version 3.0 features: Performance optimization with intelligent
+    caching and parallel processing, multi-agent workflows for collaborative AI,
+    comprehensive analytics and insights dashboard, extensible plugin architecture,
+    advanced RAG with vector embeddings and hybrid search, workflow automation and
+    task scheduling, comprehensive testing suite, plus all v2.0 features including
+    streaming responses, conversation management, multi-model comparison, theme
+    system, session persistence, advanced export formats, model management, response
+    quality tracking, Super RAG, online search integration, AI-powered prompt
+    engineering, and advanced response processing.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
@@ -46,6 +50,7 @@ Suggests:
     knitr (>= 1.42),
     devtools (>= 2.4.0),
     roxygen2 (>= 7.2.0),
-    rstudioapi (>= 0.13)
+    rstudioapi (>= 0.13),
+    parallel
 RoxygenNote: 7.2.3
 VignetteBuilder: knitr
