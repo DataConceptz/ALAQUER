@@ -164,7 +164,8 @@ ALAQUER will automatically install these if missing:
 1. **Clone or download the ALAQUER repository:**
 
 ```bash
-git clone https://github.com/yourusername/ALAQUER.git
+cd ~
+git clone https://github.com/DataConceptz/ALAQUER.git
 cd ALAQUER
 ```
 
@@ -172,7 +173,7 @@ cd ALAQUER
 
 ```r
 # In R console, navigate to ALAQUER directory
-setwd("path/to/ALAQUER")
+setwd("~/ALAQUER")
 
 # Run installation and testing
 source("install_and_test.R")
@@ -191,7 +192,7 @@ This will:
 1. **Navigate to ALAQUER directory:**
 
 ```r
-setwd("path/to/ALAQUER")
+setwd("~/ALAQUER")
 ```
 
 2. **Install dependencies:**
@@ -226,7 +227,7 @@ for (file in r_files) {
 install.packages("devtools")
 
 # Install ALAQUER from local source
-devtools::install("path/to/ALAQUER")
+devtools::install("~/ALAQUER")
 
 # Load the package
 library(ALAQUER)
@@ -237,7 +238,7 @@ library(ALAQUER)
 If you encounter any issues:
 
 ```r
-setwd("path/to/ALAQUER")
+setwd("~/ALAQUER")
 source("complete_fix.R")
 ```
 
